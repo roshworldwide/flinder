@@ -1,0 +1,7 @@
+{
+  "name": "flinder",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sed -i 's/REPLACE_WITH_GROQ_API_KEY/'\"$GROQ_API_KEY\"'/g' script.js"
+  }
+}
